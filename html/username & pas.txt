@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  <body>
+
+  body
+{
+    background-color: #fff2cc;
+}
+input
+{
+    width: 100%;
+    padding: 10px;
+}
+input[type=password]{
+    border: 2px solid red;
+}
+</style>
+<body>
+    <form action="#">
+        Nama : <br>
+        <input type="text">
+
+        Password: <br>
+        <input type="password">
+    </form>
+</body>
+  </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="proses.php" method="POST" enctype="multipart/form-data"></form>
+        <table>
+            <tr>
+                <td><label for="">Nama Mahasiswa</label></td>
+                <td><input type="text" name="nama" placeholder="Masukan nama"></td>
+            </tr>
+            <tr>
+                <td><label for="">Tanggal Lahir</label></td>
+                <td><input type="date" name="tgl" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="pas" id="" placeholder="Masukan Passwordnya"></td>
+            </tr>
+            <tr>
+                <td><label for="">Umur</label></td>
+                <td><input type="number" name="umur" id="" min="0" placeholder="Masukan umur"></td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="" value="male"> Male
+                    <input type="radio" name="gender" id="" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Pilih merek</label></td>
+                <td>
+                    <input type="checkbox" name="merek" id="" value="honda">Honda
+                    <input type="checkbox" name="merek" id="" value="yamaha">Yamaha
+                    <input type="checkbox" name="merek" id="" value="suzuki">suzuki
+                    <input type="checkbox" name="merek" id="" value="kawasaki">Kawasaki
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Pilihan kota</label></td>
+                <td>
+                    <select name="kota" id="">
+                        <option disabled>--Pilih kota--</option>
+                        <option value="bjm">Banjarmasin</option>
+                        <option value="bjb">Banjarbaru</option>
+                        <option value="mtp">Martapura</option>
+                        <option value="ktb">Kotabaru</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Upload</label></td>
+                <td><input type="file" name="upload" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Pilih warna favorite</label></td>
+                <td><input type="color" name="favcolor" id=""></td>
+            </tr>
+            <tr>
+               <td>
+                   <input type="submit" value="simpan">
+                   <input type="reset" >
+               </td>
+            </tr>
+        
+
+            
+        </table>
+           
+
+           
+            
+</body>
+</html>

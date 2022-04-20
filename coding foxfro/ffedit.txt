@@ -1,0 +1,21 @@
+replace nama WITH thisform.text2.Value
+replace j_kelamin WITH thisform.optiongrup1.value
+
+replace alamat WITH thisform.edit1.Value
+replace kelas WITH thisform.text3.value
+replace jurusan WITH thisform.combo1.Value
+thisform.command2.Click
+
+thisform.text1.Enabled			=.F.
+thisform.text2.Enabled			=.T.
+thisform.optiongrup1.Enabled	=.T.
+thisform.edit1.Enabled			=.T.
+thisform.text3.Enabled			=.T.
+thisform.combo1.Enabled			=.T.
+	thisform.command1.Enabled		=.F.
+	thisform.command2.Enabled		=.T.
+	thisform.command3.Enabled		=.T.
+	thisform.command4.Enabled		=.T.
+	thisform.command5.Enabled		=.T.
+thisform.Activate
+thisform.grid1.Refresh

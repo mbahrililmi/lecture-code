@@ -1,0 +1,86 @@
+body{
+    font-family: 16px/28px Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: #333;
+    background-image: url(../kumpulan\ gambar/background.jpg);
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: azure;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: tomato;
+}
+
+.header:hover{
+    background-color: skyblue;
+    color: slateblue;
+}
+
+.hero{
+    height: 250px;
+    background-image: url(../kumpulan\ gambar/kopilaptop.png);
+    background-size: 100px;
+    background-size: cover;
+    border-top: 5px solid slateblue;
+    border-bottom: 5px solid red;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content p{
+    text-align: justify;
+}
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+    padding: 20px;
+}
+
+.content .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+.footer .copy{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+.icon{
+    color:red;
+}

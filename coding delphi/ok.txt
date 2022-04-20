@@ -1,0 +1,24 @@
+begin
+
+     if Edit1.Text = '' then messagedlg('Password masih kosong',mtWarning,[mbOK],0)
+     Else
+     begin
+          With dm.ADOQuery1 do
+          begin
+           Close;
+           SQL.Clear;
+           SQL.Add('select * from login where pswd like "%'+edit1.text+'%"');
+
+           Open;
+           end;
+         if not dm.ADOQuery1.IsEmpty then
+         begin
+
+             Form11.ShowModal;
+             Form12.Close;
+         end
+
+         else
+         MessageBox(handle,'Password yang anda masukkan salah !','Error',MB_ICOnerror);
+     end;
+end;

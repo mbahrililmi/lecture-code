@@ -1,0 +1,16 @@
+thisform.text1.Value = ""
+thisform.text2.Value = ""
+thisform.optiongrup1.Value = 1
+thisform.edit1.Value = ""
+thisform.text3.Value = ""
+thisform.combo1.listindex = 0
+thisform.text1.enable = .T.
+thisform.text2.enable = .T.
+thisform.iptiongrup1.enable = .T.
+thisform.edit1.enable = .T.
+thisform.text3.enable = .T.
+thisform.combo1.enable = .T.
+	thisform.command1.enable = .T.
+	thisform.command2.enable = .T.
+	thisform.command3.enable = .T.
+thisform.text1.setfocus

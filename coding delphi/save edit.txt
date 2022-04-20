@@ -1,0 +1,25 @@
+begin
+
+     with dm.ADODataSet1 do
+     begin
+           if (Edit1.Text = '') or (Edit2.Text='') or (Edit3.Text='') or (Edit4.Text='') or (Edit5.text='') or (Edit6.text='') or (Edit7.text='') then
+              begin
+                application.MessageBox('Isi data dengan Benar, Semua kolom harus terisi','ERROR',MB_OK + MB_ICONERROR);
+                Edit1.SetFocus;
+                exit;
+              end
+            else
+            begin
+                 Edit;
+                 FieldValues['kode_penjualan']:=edit1.text;
+                 FieldValues['nama_pembeli']:=Edit2.Text;
+                 FieldValues['merk']:=Edit3.Text;
+                 FieldValues['tipe']:=Edit4.Text;
+                 FieldValues['harga']:=Edit5.Text;
+                 FieldValues['tanggal']:=Edit6.Text;
+                 FieldValues['pembayaran']:=Edit7.Text;
+                 Post;
+                 Button2Click(sender);
+            end;
+     end;
+end;

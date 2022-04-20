@@ -1,0 +1,11 @@
+begin
+
+     Edit1.Text :='';
+     Edit2.Text :='';
+     Edit3.Text :='';
+     Edit4.Text :='';
+     Edit5.Text :='';
+     Edit6.Text :='';
+     Edit7.Text :='';
+     Edit1.SetFocus;
+end;

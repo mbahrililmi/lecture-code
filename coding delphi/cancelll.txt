@@ -1,0 +1,20 @@
+begin
+
+          Edit1.Text := DBGrid1.fields[0].value;
+          Edit2.Text := DBGrid1.fields[1].value;
+          Edit3.Text := DBGrid1.fields[2].value;
+          Edit4.Text := DBGrid1.fields[3].value;
+          Edit5.Text := DBGrid1.fields[4].value;
+
+          Edit1.Enabled := False;
+          Edit2.Enabled := False;
+          Edit3.Enabled := False;
+          Edit4.Enabled := False;
+          Edit5.Enabled := False;
+
+          Button1.Enabled := true;
+          Button2.Enabled := true;
+          Button3.Enabled := true;
+          Button4.Enabled := false;
+          Button5.Enabled := False;
+end;

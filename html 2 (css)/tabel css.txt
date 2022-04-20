@@ -1,0 +1,17 @@
+1. css sdh menyediakan elemen untuk tabel:
+	1.<table border="">
+	2.	<tr>
+	3.		<th>
+	4.		<td>
+contoh koding atom "6"
+
+2. penggabungan baris dan kolom
+	-colspan
+		menggabungkan beberapa kolom jadi satu
+		contoh di atom "7" 
+	-rowspan
+		menggabungkan beberapa baris mejadi satu
+		contoh di atom "8"
+
+3. penggunan style sangat banyak dan bisa di gunakan di dalam tag head ataupun di luarnya
+	contoh di atom "9"

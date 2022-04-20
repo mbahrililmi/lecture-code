@@ -1,0 +1,34 @@
+1.css(cascading style sheet)=mengatur tampilan dari dokumen HTML(layout,style,pewarnaan dan tampilan font dan text).
+2.selector=bagian css=memilih elemen yang dikenai style.
+3.value=nilai properti yang di gunakan.
+4.css dalam tag
+	<h1 style="font-size:40px; color:orange;">
+   		 Teks Judul
+	</h1>
+5.selector=pemilihan element dalam tag
+	contoh: h1 {color:red}
+   -terdapat 2 macam tag selector
+	1.single selector
+		h1 {color:red}
+		p {font-size:16px}
+
+	2.multiple selector
+		h1,h2,h3,p {
+			font-family: "arial",sans-sarif:
+			color:#666;
+		}
+6.selector (id&class)
+	-sama2 digunakan untuk menentukan syle
+	-id hnya boleh di panggil sekali saja
+	-class boleh di panggil berkali-kali dalam satu halaman
+
+contoh
+<style>
+	#highlight {background-color:yellow}
+	.red{color:red}
+<style>
+
+<h1>penggunaan selector class dan id </h1>
+<p class="red"> ini kepunyaan class </p>
+<p id="higtlight"> ini kepunyaan id </p>
+		

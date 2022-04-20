@@ -1,0 +1,26 @@
+begin
+
+          Edit1.Text := '';
+          Edit2.Text := '';
+          Edit3.Text := '';
+          Edit4.Text := '';
+          Edit5.Text := '';
+
+
+          Edit1.Enabled := True;
+          Edit2.Enabled := True;
+          Edit3.Enabled := True;
+          Edit4.Enabled := True;
+          Edit5.Enabled := True;
+
+          Edit1.SetFocus;
+
+          Button1.Enabled := false;
+          Button2.Enabled := False;
+          Button3.Enabled := false;
+          Button4.Enabled := True;
+          Button5.Enabled := True;
+
+
+
+          fungsi :='tambah';

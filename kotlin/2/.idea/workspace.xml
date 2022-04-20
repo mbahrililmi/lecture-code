@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c909b24-ce4b-47d6-8ee4-3e5d87c99de2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kotlin basic" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UmIM09I5EkRCWYRTizVOUllAzH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Hello_kotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Hello_kotlinKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Hello_kotlinKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\M.BAHRIL.I\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c909b24-ce4b-47d6-8ee4-3e5d87c99de2" name="Default Changelist" comment="" />
+      <created>1575955291651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575955291651</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585812933966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1585812933966" />
+    <state x="541" y="118" key="FileChooserDialogImpl" timestamp="1585816071012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585816071012" />
+    <state width="318" height="179" key="GridCell.Tab.0.bottom" timestamp="1585816135202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="318" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585816135202" />
+    <state width="318" height="179" key="GridCell.Tab.0.center" timestamp="1585816135202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="318" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585816135202" />
+    <state width="318" height="179" key="GridCell.Tab.0.left" timestamp="1585816135202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="318" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585816135202" />
+    <state width="318" height="179" key="GridCell.Tab.0.right" timestamp="1585816135202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="318" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585816135202" />
+    <state x="199" y="0" key="SettingsEditor" timestamp="1585813634800">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="199" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585813634800" />
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1585813013924">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585813013924" />
+    <state x="0" y="139" width="734" height="551" key="new project wizard" timestamp="1585816131101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="139" width="734" height="551" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585816131101" />
+  </component>
+</project>

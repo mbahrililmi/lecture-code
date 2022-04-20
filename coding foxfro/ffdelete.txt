@@ -1,0 +1,6 @@
+pesan = MESSAGEBOX("Apakah anda yajin keluar ?",32+1,"konfirmasi")
+IF pesan = 1
+DELETE FOR npm = thisform.text1.Value
+thisform.Activate
+ENDIF
+thisform.grid1.Refresh

@@ -1,0 +1,6 @@
+A. pembuatan list dibagi menjadi 2
+	-ol(order list) list yang memiliki urutan nomor
+	-ul(unordered list) list yang tidak memiliki urutan (.)
+   untuk isi menggunakan <li>
+ 
+contoh bisa dilihat di atom "10"

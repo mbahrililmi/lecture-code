@@ -1,0 +1,5 @@
+pesan = MESSAGEBOX("Apakah anda yajin keluar ?",32+1,"konfirmasi")
+IF pesan = 1
+thisform.Release
+ENDIF
+thisform.Refresh

@@ -1,0 +1,11 @@
+LOCATE FOR npm = ALLTRIM(thisform.text1.Value)
+IF FOUND()
+	thisform.AllowOutput = .F.
+	SET FILTER TO npm = ALLTRIM(thisform.text1.Value)
+	REPORT FORM mahasiswa preview
+	thisform.Text1.Value = ""
+	thisform.text1.SetFocus
+ELSE
+	MESSAGEBOX("NPM tidak terdaftar")
+	thisform.Text1.SetFocus
+endif

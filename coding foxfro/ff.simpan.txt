@@ -1,0 +1,33 @@
+IF EMPTY(thisform.text1.Value)
+	thisform.text1.SetFocus
+ELSE
+	SEEK thisform.text1.Value
+IF FOUND()
+thisform.text1.Enabled			=.T.
+thisform.text2.Enabled			=.T.
+thisform.optiongrup1.Enabled	=.T.
+thisform.edit1.Enabled			=.T.
+thisform.text3.Enabled			=.T.
+thisform.combo1.Enabled			=.T.
+	thisform.command1.Enabled		=.F.
+	thisform.command2.Enabled		=.T.
+	thisform.command3.Enabled		=.T.
+thisform.grid1.Refresh
+MESSAGEBOX("DATA SUDAH ADA")
+thisform.text1.SetFocus
+ELSE
+APPEND blank
+replace npm WITH thisform.text1.Value
+replace nama WITH thisform.text2.Value
+IF thisform.optiongroup1.Value = 1
+	replace j_kelamin WITH "Laki-Laki"
+ELSE
+	replace j_kelamin WITH "perempuan"
+ENDIF
+replace alamat WITH thisform.edit1.Value
+replace kelas WITH thisform.text3.Value
+replace jurusan WITH thisform.combo1.DisplayValue
+thisform.command2.Click
+thisform.grid1.Refresh
+ENDIF
+endif

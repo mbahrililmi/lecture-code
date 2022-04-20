@@ -1,0 +1,11 @@
+egin
+
+     with dm.ADODataSet3 do
+     begin
+       active :=false;
+       commandtext:='select * from servis where no_plat like "%'+edit6.text+'%" '+
+       'or nama_customer like "%'+edit6.text+'%"';
+
+       Active :=true;
+     end;
+end;

@@ -1,0 +1,28 @@
+IF EMPTY(thisform.text1.Value)
+	thisform.text1.SetFocus
+ELSE
+	SEEK thisform.text1.Value
+IF FOUND()
+thisform.text2.value			= nama
+thisform.optiongrup1.value		=j_kelamin
+thisform.edit1.value			=alamat
+thisform.text3.value			=kelas
+thisform.combo1.value			=jurusan
+thisform.text1.Enabled			=.F.
+thisform.text2.Enabled			=.T.
+thisform.optiongrup1.Enabled	=.T.
+thisform.edit1.Enabled			=.T.
+thisform.text3.Enabled			=.T.
+thisform.combo1.Enabled			=.T.
+	thisform.command1.Enabled		=.F.
+	thisform.command2.Enabled		=.T.
+	thisform.command3.Enabled		=.T.
+	thisform.command4.Enabled		=.T.
+	thisform.command5.Enabled		=.T.
+	
+	thisform.text2.SetFocus
+ELSE
+	MESSAGEBOX("DATA MAHASISWA TIDAK TERDAFTAR..!")
+thisform.text1.SetFocus
+ENDIF
+ENDIF

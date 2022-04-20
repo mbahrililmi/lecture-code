@@ -1,0 +1,35 @@
+begin
+
+     if Edit1.Text = '' then messagedlg('Username masih kosong',mtWarning,[mbOK],0)
+     else
+     if Edit2.Text = '' then messagedlg('Password masih kosong',mtWarning,[mbOK],0)
+       Else begin
+          With dm.ADOQuery1 do
+          begin
+           Close;
+           SQL.Clear;
+           SQL.Add('select * from login where username like "%'+edit1.text+'%" '+'and pswd like "%'+edit2.text+'%"');
+
+           Open;
+         end;
+         if not dm.ADOQuery1.IsEmpty then
+         begin
+
+             panel_login.Hide;
+             Label6.caption := edit1.text;
+
+             Edit1.Text:='';
+             Edit2.Text:='';
+             FILE1.enabled :=True;
+             PRINT1.Enabled :=True;
+             DMANAGEADMIN1.Enabled :=True;
+             DEVELOPER1.Enabled :=True;
+             LOGOUT1.Enabled :=True;
+
+
+         end
+
+         else
+         MessageBox(handle,'Password atau username yang anda masukkan salah !','Error',MB_ICOnerror);
+       end;
+end;

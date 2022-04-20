@@ -1,0 +1,15 @@
+.external{
+    background-color: aqua;
+    color: white;
+    overflow: hidden;
+    transition-duration: 10s;
+    transition-property: transform;
+}
+
+.external:hover{
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-size: 20px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
